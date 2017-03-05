@@ -175,7 +175,7 @@ public class FileCopyTask implements Runnable {
 				FileUtil.copy(in, out, (64*1024));
 			}
 			public String toString() {
-				return "Copy the file using a byte array of size 4KB(4096)";
+				return "Copy the file using a byte array of size 64KB(65536)";
 			}
 		};
 		
